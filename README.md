@@ -6,3 +6,5 @@ However, as the `tidyverse` keeps expanding a new data type might replace the ma
 
 ## Results
 For simulation runs <10e5 turns matrices are a lot faster when compared to tibbles. Interestingly, there is a strong shift back towards tibbles when simulations are run for much longer (10e6). Why? I cannot say yet. 
+
+![plot](https://github.com/marcosmolla/tibble_vs_matrix/blob/master/plot.png)
